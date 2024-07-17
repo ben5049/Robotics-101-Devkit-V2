@@ -12,8 +12,9 @@
           {
             "name": "ICRS nRF52",
             "architecture": "nrf52",
-            "url": "https://github.com/sandeepmistry/arduino-nRF5/archive/0.8.0.tar.gz",
-            "archiveFileName": "arduino-nRF52-0.8.0.tar.gz",
+            "version": "0.0.0",
+            "url": "https://github.com/ben5049/Robotics-101-Devkit-V2/archive/refs/tags/test1.tar.gz",
+            "archiveFileName": "test1.tar.gz",
             "boards": [
               {"name": "101 Devkit v2"}
             ],
