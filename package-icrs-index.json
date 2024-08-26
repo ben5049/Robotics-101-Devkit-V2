@@ -30,13 +30,13 @@
 
                     "category": "Contributed",
 
-                    "url": "https://files.seeedstudio.com/arduino/core/nRF52/Seeed_nRF52_Boards-1.1.8.tar.bz2",
+                    "url": "https://github.com/ben5049/Robotics-101-Devkit-V2/archive/refs/tags/0.0.0.tar.gz",
+                            
+                    "archiveFileName": "Robotics_101_Devkit_V2-0.0.0.tar.gz",
 
-                    "archiveFileName": "Seeed_nRF52_Boards-1.1.8.tar.bz2",
+                    "checksum": "SHA-256:6EC721EE09E2D6A0159C9108DBD3AC22001B950BDDB357DB0AC2A39A1E795B57",
 
-                    "checksum": "SHA-256:E62856AE6F2106D17F5CD77E527F0A158858F347B30FA0E3767CBA1750A66834",
-
-                    "size": "21715756",
+                    "size": "16612874",
 
                     "boards": [
 
