@@ -55,24 +55,6 @@ const uint32_t g_ADigitalPinMap[] =
     31, // D32 is P0.31 (VBAT)
 };
 
-void initVariant()
-{
-    // Disable reading of the BAT voltage.
-    // https://wiki.seeedstudio.com/XIAO_BLE#q3-what-are-the-considerations-when-using-xiao-nrf52840-sense-for-battery-charging
-    pinMode(VBAT_ENABLE, OUTPUT);
-    digitalWrite(VBAT_ENABLE, HIGH);
+void initVariant() {
 
-    // Low charging current.
-    // https://wiki.seeedstudio.com/XIAO_BLE#battery-charging-current
-    pinMode(PIN_CHARGING_CURRENT, INPUT);
-
-    pinMode(PIN_QSPI_CS, OUTPUT);
-    digitalWrite(PIN_QSPI_CS, HIGH);
-
-    pinMode(LED_RED, OUTPUT);
-    digitalWrite(LED_RED, HIGH);
-    pinMode(LED_GREEN, OUTPUT);
-    digitalWrite(LED_GREEN, HIGH);
-    pinMode(LED_BLUE, OUTPUT);
-    digitalWrite(LED_BLUE, HIGH);
 }
