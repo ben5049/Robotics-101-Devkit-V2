@@ -22,7 +22,7 @@
 
 				{
 
-                    "name": "Seeed nRF52 Boards",
+                    "name": "Robotics 101 Devkit V2",
 
                     "architecture": "nrf52",
 
@@ -54,7 +54,7 @@
 
                         {
 
-                            "name": "Seeed Wio Tracker 1110"
+                            "name": "Robotics 101 Devkit V2"
 
                         }
 
