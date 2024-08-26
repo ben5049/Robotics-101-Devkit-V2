@@ -11,14 +11,14 @@ menu.power_supply_grove=Grove power supply
 xiaonRF52840Sense.name=Robotics 101 Devkit V2
 
 # VID/PID for bootloader
-xiaonRF52840Sense.vid.0=0x2886
-xiaonRF52840Sense.pid.0=0x8045
-xiaonRF52840Sense.vid.1=0x2886
-xiaonRF52840Sense.pid.1=0x0045
-xiaonRF52840Sense.vid.2=0x2886
-xiaonRF52840Sense.pid.2=0x0045
-xiaonRF52840Sense.vid.3=0x2886
-xiaonRF52840Sense.pid.3=0x8045
+xiaonRF52840Sense.vid.0=0x1915
+xiaonRF52840Sense.pid.0=0x8047
+xiaonRF52840Sense.vid.1=0x1915
+xiaonRF52840Sense.pid.1=0x0047
+xiaonRF52840Sense.vid.2=0x1915
+xiaonRF52840Sense.pid.2=0x0047
+xiaonRF52840Sense.vid.3=0x1915
+xiaonRF52840Sense.pid.3=0x8047
 
 # Upload
 xiaonRF52840Sense.bootloader.tool=bootburn
@@ -39,8 +39,8 @@ xiaonRF52840Sense.build.usb_manufacturer="Seeed"
 xiaonRF52840Sense.build.usb_product="XIAO nRF52840 Sense"
 xiaonRF52840Sense.build.extra_flags=-DNRF52840_XXAA {build.flags.usb}
 xiaonRF52840Sense.build.ldscript=nrf52840_s140_v7.ld
-xiaonRF52840Sense.build.vid=0x2886
-xiaonRF52840Sense.build.pid=0x8045
+xiaonRF52840Sense.build.vid=0x1915
+xiaonRF52840Sense.build.pid=0x8047
 
 # SofDevice Menu
 xiaonRF52840Sense.menu.softdevice.s140v6=S140 7.3.0
