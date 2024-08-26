@@ -8,53 +8,53 @@ menu.power_supply_grove=Grove power supply
 # ----------------------------------
 # Robotics 101 Devkit V2
 # ----------------------------------
-xiaonRF52840Sense.name=Robotics 101 Devkit V2
+robotics101devkitv2.name=Robotics 101 Devkit V2
 
 # VID/PID for bootloader
-xiaonRF52840Sense.vid.0=0x1915
-xiaonRF52840Sense.pid.0=0x8047
-xiaonRF52840Sense.vid.1=0x1915
-xiaonRF52840Sense.pid.1=0x0047
-xiaonRF52840Sense.vid.2=0x1915
-xiaonRF52840Sense.pid.2=0x0047
-xiaonRF52840Sense.vid.3=0x1915
-xiaonRF52840Sense.pid.3=0x8047
+robotics101devkitv2.vid.0=0x1915
+robotics101devkitv2.pid.0=0x8047
+robotics101devkitv2.vid.1=0x1915
+robotics101devkitv2.pid.1=0x0047
+robotics101devkitv2.vid.2=0x1915
+robotics101devkitv2.pid.2=0x0047
+robotics101devkitv2.vid.3=0x1915
+robotics101devkitv2.pid.3=0x8047
 
 # Upload
-xiaonRF52840Sense.bootloader.tool=bootburn
-xiaonRF52840Sense.upload.tool=nrfutil
-xiaonRF52840Sense.upload.protocol=nrfutil
-xiaonRF52840Sense.upload.use_1200bps_touch=true
-xiaonRF52840Sense.upload.wait_for_upload_port=true
-xiaonRF52840Sense.upload.maximum_size=811008
-xiaonRF52840Sense.upload.maximum_data_size=237568
+robotics101devkitv2.bootloader.tool=bootburn
+robotics101devkitv2.upload.tool=nrfutil
+robotics101devkitv2.upload.protocol=nrfutil
+robotics101devkitv2.upload.use_1200bps_touch=true
+robotics101devkitv2.upload.wait_for_upload_port=true
+robotics101devkitv2.upload.maximum_size=811008
+robotics101devkitv2.upload.maximum_data_size=237568
 
 # Build
-xiaonRF52840Sense.build.mcu=cortex-m4
-xiaonRF52840Sense.build.f_cpu=64000000
-xiaonRF52840Sense.build.board=Seeed_XIAO_nRF52840_Sense
-xiaonRF52840Sense.build.core=nRF5
-xiaonRF52840Sense.build.variant=Seeed_XIAO_nRF52840_Sense
-xiaonRF52840Sense.build.usb_manufacturer="Seeed"
-xiaonRF52840Sense.build.usb_product="XIAO nRF52840 Sense"
-xiaonRF52840Sense.build.extra_flags=-DNRF52840_XXAA {build.flags.usb}
-xiaonRF52840Sense.build.ldscript=nrf52840_s140_v7.ld
-xiaonRF52840Sense.build.vid=0x1915
-xiaonRF52840Sense.build.pid=0x8047
+robotics101devkitv2.build.mcu=cortex-m4
+robotics101devkitv2.build.f_cpu=64000000
+robotics101devkitv2.build.board=Robotics_101_Devkit_V2
+robotics101devkitv2.build.core=nRF5
+robotics101devkitv2.build.variant=Robotics_101_Devkit_V2
+robotics101devkitv2.build.usb_manufacturer="ICRS"
+robotics101devkitv2.build.usb_product="Robotics 101 Devkit V2"
+robotics101devkitv2.build.extra_flags=-DNRF52840_XXAA {build.flags.usb}
+robotics101devkitv2.build.ldscript=nrf52840_s140_v7.ld
+robotics101devkitv2.build.vid=0x1915
+robotics101devkitv2.build.pid=0x8047
 
 # SofDevice Menu
-xiaonRF52840Sense.menu.softdevice.s140v6=S140 7.3.0
-xiaonRF52840Sense.menu.softdevice.s140v6.build.sd_name=s140
-xiaonRF52840Sense.menu.softdevice.s140v6.build.sd_version=7.3.0
-xiaonRF52840Sense.menu.softdevice.s140v6.build.sd_fwid=0x0123
+robotics101devkitv2.menu.softdevice.s140v6=S140 7.3.0
+robotics101devkitv2.menu.softdevice.s140v6.build.sd_name=s140
+robotics101devkitv2.menu.softdevice.s140v6.build.sd_version=7.3.0
+robotics101devkitv2.menu.softdevice.s140v6.build.sd_fwid=0x0123
 
 # Debug Menu
-xiaonRF52840Sense.menu.debug.l0=Level 0 (Release)
-xiaonRF52840Sense.menu.debug.l0.build.debug_flags=-DCFG_DEBUG=0
-xiaonRF52840Sense.menu.debug.l1=Level 1 (Error Message)
-xiaonRF52840Sense.menu.debug.l1.build.debug_flags=-DCFG_DEBUG=1
-xiaonRF52840Sense.menu.debug.l2=Level 2 (Full Debug)
-xiaonRF52840Sense.menu.debug.l2.build.debug_flags=-DCFG_DEBUG=2
-xiaonRF52840Sense.menu.debug.l3=Level 3 (Segger SystemView)
-xiaonRF52840Sense.menu.debug.l3.build.debug_flags=-DCFG_DEBUG=3
-xiaonRF52840Sense.menu.debug.l3.build.sysview_flags=-DCFG_SYSVIEW=1
+robotics101devkitv2.menu.debug.l0=Level 0 (Release)
+robotics101devkitv2.menu.debug.l0.build.debug_flags=-DCFG_DEBUG=0
+robotics101devkitv2.menu.debug.l1=Level 1 (Error Message)
+robotics101devkitv2.menu.debug.l1.build.debug_flags=-DCFG_DEBUG=1
+robotics101devkitv2.menu.debug.l2=Level 2 (Full Debug)
+robotics101devkitv2.menu.debug.l2.build.debug_flags=-DCFG_DEBUG=2
+robotics101devkitv2.menu.debug.l3=Level 3 (Segger SystemView)
+robotics101devkitv2.menu.debug.l3.build.debug_flags=-DCFG_DEBUG=3
+robotics101devkitv2.menu.debug.l3.build.sysview_flags=-DCFG_SYSVIEW=1
