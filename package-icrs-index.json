@@ -52,7 +52,7 @@
 
                         {
 
-                            "packager": "Seeeduino",
+                            "packager": "ICRS",
 
                             "name": "arm-none-eabi-gcc",
 
@@ -62,7 +62,7 @@
 
                         {
 
-                            "packager": "Seeeduino",
+                            "packager": "ICRS",
 
                             "name": "nrfjprog",
 
@@ -72,7 +72,7 @@
 
                         {
 
-                            "packager": "Seeeduino",
+                            "packager": "ICRS",
 
                             "name": "CMSIS",
 
@@ -778,226 +778,6 @@
                             "archiveFileName": "openocd-0.10.0-arduino7-static-i686-w64-mingw32.zip",
 
                             "url": "https://files.seeedstudio.com/arduino/tools/res/openocd/0.10.0-arduino7/openocd-0.10.0-arduino7-static-i686-w64-mingw32.zip"
-
-                        }
-
-                    ]
-
-                },
-
-                {
-
-                    "name": "CMSIS",
-
-                    "version": "4.5.0",
-
-                    "systems": [
-
-                        {
-
-                            "host": "i686-mingw32",
-
-                            "url": "https://files.seeedstudio.com/arduino/tools/res/CMSIS/CMSIS_4-4.5.0.tar.gz",
-
-                            "archiveFileName": "CMSIS_4-4.5.0.tar.bz2",
-
-                            "checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
-
-                            "size": "31525196"
-
-                        },
-
-                        {
-
-                            "host": "x86_64-apple-darwin",
-
-                            "url": "https://files.seeedstudio.com/arduino/tools/res/CMSIS/CMSIS_4-4.5.0.tar.gz",
-
-                            "archiveFileName": "CMSIS_4-4.5.0.tar.bz2",
-
-                            "checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
-
-                            "size": "31525196"
-
-                        },
-
-                        {
-
-                            "host": "x86_64-pc-linux-gnu",
-
-                            "url": "https://files.seeedstudio.com/arduino/tools/res/CMSIS/CMSIS_4-4.5.0.tar.gz",
-
-                            "archiveFileName": "CMSIS_4-4.5.0.tar.bz2",
-
-                            "checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
-
-                            "size": "31525196"
-
-                        },
-
-                        {
-
-                            "host": "i686-pc-linux-gnu",
-
-                            "url": "https://files.seeedstudio.com/arduino/tools/res/CMSIS/CMSIS_4-4.5.0.tar.gz",
-
-                            "archiveFileName": "CMSIS_4-4.5.0.tar.bz2",
-
-                            "checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
-
-                            "size": "31525196"
-
-                        },
-
-                        {
-
-                            "host": "arm-linux-gnueabihf",
-
-                            "url": "https://files.seeedstudio.com/arduino/tools/res/CMSIS-Atmel/CMSIS-Atmel-1.2.1.tar.gz",
-
-                            "archiveFileName": "CMSIS-Atmel-1.2.1.tar.gz",
-
-                            "checksum": "SHA-256:827242706CD1DA8FA684241DF5ACFDD2C16A6607AD4C199A814158267E451D45",
-
-                            "size": "3669946"
-
-                        },
-
-                        {
-
-                            "host": "aarch64-linux-gnu",
-
-                            "url": "https://files.seeedstudio.com/arduino/tools/res/CMSIS/CMSIS_4-4.5.0.tar.gz",
-
-                            "archiveFileName": "CMSIS_4-4.5.0.tar.bz2",
-
-                            "checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
-
-                            "size": "31525196"
-
-                        },
-
-                        {
-
-                            "host": "all",
-
-                            "url": "https://files.seeedstudio.com/arduino/tools/res/CMSIS/CMSIS_4-4.5.0.tar.gz",
-
-                            "archiveFileName": "CMSIS_4-4.5.0.tar.bz2",
-
-                            "checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
-
-                            "size": "31525196"
-
-                        }
-
-                    ]
-
-                },
-
-                {
-
-                    "name": "CMSIS",
-
-                    "version": "5.4.0",
-
-                    "systems": [
-
-                        {
-
-                            "host": "i686-mingw32",
-
-                            "url": "https://files.seeedstudio.com/arduino/tools/res/CMSIS/CMSIS_5-5.4.0.tar.gz",
-
-                            "archiveFileName": "CMSIS_5-5.4.0.tar.gz",
-
-                            "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
-
-                            "size": "153772853"
-
-                        },
-
-                        {
-
-                            "host": "x86_64-apple-darwin",
-
-                            "url": "https://files.seeedstudio.com/arduino/tools/res/CMSIS/CMSIS_5-5.4.0.tar.gz",
-
-                            "archiveFileName": "CMSIS_5-5.4.0.tar.gz",
-
-                            "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
-
-                            "size": "153772853"
-
-                        },
-
-                        {
-
-                            "host": "x86_64-pc-linux-gnu",
-
-                            "url": "https://files.seeedstudio.com/arduino/tools/res/CMSIS/CMSIS_5-5.4.0.tar.gz",
-
-                            "archiveFileName": "CMSIS_5-5.4.0.tar.gz",
-
-                            "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
-
-                            "size": "153772853"
-
-                        },
-
-                        {
-
-                            "host": "i686-pc-linux-gnu",
-
-                            "url": "https://files.seeedstudio.com/arduino/tools/res/CMSIS/CMSIS_5-5.4.0.tar.gz",
-
-                            "archiveFileName": "CMSIS_5-5.4.0.tar.gz",
-
-                            "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
-
-                            "size": "153772853"
-
-                        },
-
-                        {
-
-                            "host": "arm-linux-gnueabihf",
-
-                            "url": "https://files.seeedstudio.com/arduino/tools/res/CMSIS/CMSIS_5-5.4.0.tar.gz",
-
-                            "archiveFileName": "CMSIS_5-5.4.0.tar.gz",
-
-                            "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
-
-                            "size": "153772853"
-
-                        },
-
-                        {
-
-                            "host": "aarch64-linux-gnu",
-
-                            "url": "https://files.seeedstudio.com/arduino/tools/res/CMSIS/CMSIS_5-5.4.0.tar.gz",
-
-                            "archiveFileName": "CMSIS_5-5.4.0.tar.gz",
-
-                            "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
-
-                            "size": "153772853"
-
-                        },
-
-                        {
-
-                            "host": "all",
-
-                            "url": "https://files.seeedstudio.com/arduino/tools/res/CMSIS/CMSIS_5-5.4.0.tar.gz",
-
-                            "archiveFileName": "CMSIS_5-5.4.0.tar.gz",
-
-                            "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
-
-                            "size": "153772853"
 
                         }
 
