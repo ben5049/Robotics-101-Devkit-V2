@@ -26,6 +26,70 @@
 
                     "architecture": "nrf52",
 
+                    "version": "0.0.7",
+
+                    "category": "Contributed",
+
+                    "url": "https://github.com/ben5049/Robotics-101-Devkit-V2/releases/download/0.0.7/Robotics-101-Devkit-V2-0.0.7.zip",
+                            
+                    "archiveFileName": "Robotics_101_Devkit_V2-0.0.7.zip",
+
+                    "checksum": "SHA-256:ab137f1115f43030585a60506d4ee7a7906443de4fd48a5b970a4fde318a2eda",
+
+                    "size": "117763572",
+
+                    "boards": [
+
+                        {
+
+                            "name": "Robotics 101 Devkit V2"
+
+                        }
+
+                    ],
+
+                    "toolsDependencies": [
+
+                        {
+
+                            "packager": "ICRS",
+
+                            "name": "arm-none-eabi-gcc",
+
+                            "version": "9-2019q4"
+
+                        },
+
+                        {
+
+                            "packager": "ICRS",
+
+                            "name": "nrfjprog",
+
+                            "version": "9.4.0"
+
+                        },
+
+                        {
+
+                            "packager": "ICRS",
+
+                            "name": "CMSIS",
+
+                            "version": "5.7.0"
+
+                        }
+
+                    ]
+
+                },
+         
+                {
+
+                    "name": "Robotics 101 Devkit V2",
+
+                    "architecture": "nrf52",
+
                     "version": "0.0.6",
 
                     "category": "Contributed",
@@ -34,9 +98,9 @@
                             
                     "archiveFileName": "Robotics_101_Devkit_V2-0.0.6.zip",
 
-                    "checksum": "SHA-256:",
+                    "checksum": "SHA-256:70a2fca036d52ba3262f0b5a543a689d49587d3e578174ce11fd7dd6c913b4d3",
 
-                    "size": "",
+                    "size": "117763571",
 
                     "boards": [
 
