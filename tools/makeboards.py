@@ -1,20 +1,6 @@
 #!/usr/bin/env python3
 
 mcu_dict = {
-    52832: {
-        'flash_size': 290816,
-        'data_size': 51712,
-        'extra_flags': '-DNRF52832_XXAA -DNRF52',
-        'ldscript': 'nrf52832_s132_v6.ld',
-        'uf2_family': 0x00
-    },
-    52833: {
-        'flash_size': 286720,
-        'data_size': 106496,
-        'extra_flags': '-DNRF52833_XXAA {build.flags.usb}',
-        'ldscript': 'nrf52833_s140_v7.ld',
-        'uf2_family': '0x621E937A'
-    },
     52840: {
         'flash_size': 815104,
         'data_size': 237568,
@@ -146,38 +132,8 @@ build_global_menu()
 # ------------------------------
 
 adafruit_boards_list = [
-    [52832, "feather52832", "feather_nrf52832", "Adafruit", "Feather nRF52832", "NRF52832_FEATHER",
-     "0x239A", []],
-
-    [52840, "feather52840", "feather_nrf52840_express", "Adafruit", "Feather nRF52840 Express", "NRF52840_FEATHER",
-     "0x239A", ["0x8029", "0x0029", "0x002A", "0x802A"]],
-
-    [52840, "feather52840sense", "feather_nrf52840_sense", "Adafruit", "Feather nRF52840 Sense", "NRF52840_FEATHER_SENSE",
-     "0x239A", ["0x8087", "0x0087", "0x0088", "0x8088"]],
-
-    [52840, "feather_nrf52840_sense_tft", "feather_nrf52840_sense_tft", "Adafruit", "Feather nRF52840 Sense TFT", "NRF52840_FEATHER_SENSE_TFT",
-     "0x239A", ["0x8087", "0x0087", "0x0088", "0x8088"]], # TODO shared VID with sense for now
-
-    [52840, "itsybitsy52840", "itsybitsy_nrf52840_express", "Adafruit", "ItsyBitsy nRF52840 Express", "NRF52840_ITSYBITSY -DARDUINO_NRF52_ITSYBITSY",
-     "0x239A", ["0x8051", "0x0051", "0x0052", "0x8052"]],
-
-    [52840, "cplaynrf52840", "circuitplayground_nrf52840", "Adafruit", "Circuit Playground Bluefruit", "NRF52840_CIRCUITPLAY",
-     "0x239A", ["0x8045", "0x0045", "0x8046"]],
-
-    [52840, "cluenrf52840", "clue_nrf52840", "Adafruit", "CLUE", "NRF52840_CLUE",
-     "0x239A", ["0x8071", "0x0071", "0x8072"]],
-
-    [52840, "ledglasses_nrf52840", "ledglasses_nrf52840", "Adafruit", "LED Glasses Driver nRF52840", "NRF52840_LED_GLASSES",
-     "0x239A", ["0x810D", "0x010D", "0x810E"]],
-
-    [52840, "mdbt50qrx", "raytac_mdbt50q_rx", "Raytac", "nRF52840 Dongle", "MDBT50Q_RX",
-     "0x239A", ["0x810B", "0x010B", "0x810C"]],
-
-    [52840, "metro52840", "metro_nrf52840_express", "Adafruit", "Metro nRF52840 Express", "NRF52840_METRO",
-     "0x239A", ["0x803F", "0x003F", "0x0040", "0x8040"]],
-
-    # [52833, "feather52833", "feather_nrf52833_express", "Adafruit", "Feather nRF52833 Express", "NRF52833_FEATHER",
-    #            "0x239A", ["0x8029", "0x0029", "0x002A", "0x802A"]],
+    [52840, "robotics101devkitv2", "Robotics_101_Devkit_V2", "ICRS", "Robotics 101 Devkit V2", "ROBOTICS_101_DEVKIT_V2",
+     "0x239A", ["0x8029", "0x0029", "0x002A", "0x802A"]]
 ]
 
 for b in adafruit_boards_list:
@@ -195,9 +151,9 @@ print("# and are not officially supported")
 print("# -------------------------------------------------------")
 
 thirdparty_boards_list = [
-    [52840, "pca10056", "pca10056", "Nordic", "nRF52840 DK", "NRF52840_PCA10056", "0x239A", ["0x80DA", "0x00DA"]],
-    [52833, "pca10100", "pca10100", "Nordic", "nRF52833 DK", "NRF52833_PCA10100", "0x239A", ["0x80D8", "0x00D8"]],
-    [52840, "particle_xenon", "particle_xenon", "Particle", "Xenon", "PARTICLE_XENON", "0x239A", ["0x80DA", "0x00DA"]],
+    # [52840, "pca10056", "pca10056", "Nordic", "nRF52840 DK", "NRF52840_PCA10056", "0x239A", ["0x80DA", "0x00DA"]],
+    # [52833, "pca10100", "pca10100", "Nordic", "nRF52833 DK", "NRF52833_PCA10100", "0x239A", ["0x80D8", "0x00D8"]],
+    # [52840, "particle_xenon", "particle_xenon", "Particle", "Xenon", "PARTICLE_XENON", "0x239A", ["0x80DA", "0x00DA"]],
 ]
 
 for b in thirdparty_boards_list:
