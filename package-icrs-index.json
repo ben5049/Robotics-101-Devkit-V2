@@ -30,13 +30,13 @@
 
                     "category": "Contributed",
 
-                    "url": "https://github.com/ben5049/Robotics-101-Devkit-V2/releases/download/0.0.5/Robotics-101-Devkit-V2-0.0.4.zip",
+                    "url": "https://github.com/ben5049/Robotics-101-Devkit-V2/releases/download/0.0.5/Robotics-101-Devkit-V2-0.0.5.zip",
                             
                     "archiveFileName": "Robotics_101_Devkit_V2-0.0.5.zip",
 
-                    "checksum": "SHA-256:",
+                    "checksum": "SHA-256:0abd16c1401d9af559c0845941f9ca82135bf04dedb4f47be4d38909fb45bff7",
 
-                    "size": "",
+                    "size": "117763554",
 
                     "boards": [
 
