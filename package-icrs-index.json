@@ -26,6 +26,70 @@
 
                     "architecture": "nrf52",
 
+                    "version": "0.0.9",
+
+                    "category": "Contributed",
+
+                    "url": "https://github.com/ben5049/Robotics-101-Devkit-V2/releases/download/0.0.9/Robotics-101-Devkit-V2-0.0.9.zip",
+                            
+                    "archiveFileName": "Robotics_101_Devkit_V2-0.0.9.zip",
+
+                    "checksum": "SHA-256:9cf630f5d2a3fe1b67f741cb723c6758204d05c10bc9ccaff1ce0aa4874d2824",
+
+                    "size": "22073822",
+
+                    "boards": [
+
+                        {
+
+                            "name": "Robotics 101 Devkit V2"
+
+                        }
+
+                    ],
+
+                    "toolsDependencies": [
+
+                        {
+
+                            "packager": "ICRS",
+
+                            "name": "arm-none-eabi-gcc",
+
+                            "version": "9-2019q4"
+
+                        },
+
+                        {
+
+                            "packager": "ICRS",
+
+                            "name": "nrfjprog",
+
+                            "version": "9.4.0"
+
+                        },
+
+                        {
+
+                            "packager": "ICRS",
+
+                            "name": "CMSIS",
+
+                            "version": "5.7.0"
+
+                        }
+
+                    ]
+
+                },
+         
+                {
+
+                    "name": "Robotics 101 Devkit V2",
+
+                    "architecture": "nrf52",
+
                     "version": "0.0.8",
 
                     "category": "Contributed",

@@ -58,9 +58,9 @@ robotics101devkitv2.menu.debug.l3.build.debug_flags=-DCFG_DEBUG=3
 robotics101devkitv2.menu.debug.l3.build.sysview_flags=-DCFG_SYSVIEW=1
 
 # Menu: Debug Port
-feather52840.menu.debug_output.serial=Serial
-feather52840.menu.debug_output.serial.build.logger_flags=-DCFG_LOGGER=0
-feather52840.menu.debug_output.serial1=Serial1
-feather52840.menu.debug_output.serial1.build.logger_flags=-DCFG_LOGGER=1 -DCFG_TUSB_DEBUG=CFG_DEBUG
-feather52840.menu.debug_output.rtt=Segger RTT
-feather52840.menu.debug_output.rtt.build.logger_flags=-DCFG_LOGGER=2 -DCFG_TUSB_DEBUG=CFG_DEBUG -DSEGGER_RTT_MODE_DEFAULT=SEGGER_RTT_MODE_BLOCK_IF_FIFO_FULL
+robotics101devkitv2.menu.debug_output.serial=Serial
+robotics101devkitv2.menu.debug_output.serial.build.logger_flags=-DCFG_LOGGER=0
+robotics101devkitv2.menu.debug_output.serial1=Serial1
+robotics101devkitv2.menu.debug_output.serial1.build.logger_flags=-DCFG_LOGGER=1 -DCFG_TUSB_DEBUG=CFG_DEBUG
+robotics101devkitv2.menu.debug_output.rtt=Segger RTT
+robotics101devkitv2.menu.debug_output.rtt.build.logger_flags=-DCFG_LOGGER=2 -DCFG_TUSB_DEBUG=CFG_DEBUG -DSEGGER_RTT_MODE_DEFAULT=SEGGER_RTT_MODE_BLOCK_IF_FIFO_FULL
