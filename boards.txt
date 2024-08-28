@@ -1,9 +1,4 @@
-menu.softdevice=SoftDevice
-menu.debug=Debug
-menu.debug_output=Print Port
-menu.usb_cdc=Serial (USB-CDC)
-menu.lbm_custom=Customize LoRaWAN modem
-menu.power_supply_grove=Grove power supply
+menu.debug_output=Debug Port
 
 # ----------------------------------
 # Robotics 101 Devkit V2
@@ -26,27 +21,28 @@ robotics101devkitv2.upload.tool=nrfutil
 robotics101devkitv2.upload.protocol=nrfutil
 robotics101devkitv2.upload.use_1200bps_touch=true
 robotics101devkitv2.upload.wait_for_upload_port=true
-robotics101devkitv2.upload.maximum_size=811008
+robotics101devkitv2.upload.maximum_size=815104
 robotics101devkitv2.upload.maximum_data_size=237568
 
 # Build
 robotics101devkitv2.build.mcu=cortex-m4
 robotics101devkitv2.build.f_cpu=64000000
-robotics101devkitv2.build.board=Robotics_101_Devkit_V2
+robotics101devkitv2.build.board=ROBOTICS_101_DEVKIT_V2
 robotics101devkitv2.build.core=nRF5
 robotics101devkitv2.build.variant=Robotics_101_Devkit_V2
 robotics101devkitv2.build.usb_manufacturer="ICRS"
 robotics101devkitv2.build.usb_product="Robotics 101 Devkit V2"
 robotics101devkitv2.build.extra_flags=-DNRF52840_XXAA {build.flags.usb}
-robotics101devkitv2.build.ldscript=nrf52840_s140_v7.ld
+robotics101devkitv2.build.ldscript=nrf52840_s140_v6.ld
 robotics101devkitv2.build.vid=0x1915
 robotics101devkitv2.build.pid=0x8047
+robotics101devkitv2.build.uf2_family=0xADA52840
 
 # SofDevice Menu
-robotics101devkitv2.menu.softdevice.s140v6=S140 7.3.0
+robotics101devkitv2.menu.softdevice.s140v6=S140 6.1.1
 robotics101devkitv2.menu.softdevice.s140v6.build.sd_name=s140
-robotics101devkitv2.menu.softdevice.s140v6.build.sd_version=7.3.0
-robotics101devkitv2.menu.softdevice.s140v6.build.sd_fwid=0x0123
+robotics101devkitv2.menu.softdevice.s140v6.build.sd_version=6.1.1
+robotics101devkitv2.menu.softdevice.s140v6.build.sd_fwid=0x00B6
 
 # Debug Menu
 robotics101devkitv2.menu.debug.l0=Level 0 (Release)
@@ -58,3 +54,11 @@ robotics101devkitv2.menu.debug.l2.build.debug_flags=-DCFG_DEBUG=2
 robotics101devkitv2.menu.debug.l3=Level 3 (Segger SystemView)
 robotics101devkitv2.menu.debug.l3.build.debug_flags=-DCFG_DEBUG=3
 robotics101devkitv2.menu.debug.l3.build.sysview_flags=-DCFG_SYSVIEW=1
+
+# Menu: Debug Port
+feather52840.menu.debug_output.serial=Serial
+feather52840.menu.debug_output.serial.build.logger_flags=-DCFG_LOGGER=0
+feather52840.menu.debug_output.serial1=Serial1
+feather52840.menu.debug_output.serial1.build.logger_flags=-DCFG_LOGGER=1 -DCFG_TUSB_DEBUG=CFG_DEBUG
+feather52840.menu.debug_output.rtt=Segger RTT
+feather52840.menu.debug_output.rtt.build.logger_flags=-DCFG_LOGGER=2 -DCFG_TUSB_DEBUG=CFG_DEBUG -DSEGGER_RTT_MODE_DEFAULT=SEGGER_RTT_MODE_BLOCK_IF_FIFO_FULL
